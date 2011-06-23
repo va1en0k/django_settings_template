@@ -64,7 +64,7 @@ LOGGING = {
     'formatters': {
         'verbose': {
             'format': ('%(levelname)s %(asctime)s |'
-                       '%(pathname)s:%(lineno)d (in %(funcName)s) |'
+                       ' %(pathname)s:%(lineno)d (in %(funcName)s) |'
                        ' %(message)s ')
         },
         'simple': {
